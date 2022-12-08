@@ -1,5 +1,21 @@
 /* Временные стили добавлять здесь */
 
-.caption-color {
+.caption--color {
   color: #94A3B8;
+}
+
+.heading--mt {
+  margin-top: 64px;
+}
+
+.gap--96 {
+  gap: 96px;
+}
+
+.pl--72 {
+  padding-left: 72px;
+}
+
+.pr--72 {
+  padding-right: 72px;
 }
