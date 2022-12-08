@@ -7,12 +7,11 @@ function SecondaryButton(props) {
     const Button = styled.div`
         border: 1px solid #64748B;
         border-radius: 24px;
-        box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
         min-width: ${minWidth};
         color: #152842;
         &:hover {
             opacity: 0.8;
-            border: none;
+            border-color: transparent;
         }
         &:active {
             opacity: 0.6;
